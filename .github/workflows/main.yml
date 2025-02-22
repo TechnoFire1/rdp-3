@@ -7,8 +7,6 @@ jobs:
   build:
     name: Start Building...
     runs-on: windows-latest
-   
-    
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2  # Ensure the repository is checked out
